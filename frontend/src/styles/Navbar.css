@@ -1,0 +1,36 @@
+.navbar {
+	width: 100vw;
+	height: 80px;
+	background: #0B2447;
+	color: #eee;
+	position: relative;
+	font-size: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navbar .logo {
+	padding: 20px;
+	font-size: 2.5rem;
+}
+
+.navbar .navigation {
+	display: flex;
+	flex-direction: row;
+}
+.navigation li {
+	display: inline;
+}
+.navigation li a{
+	height: 100%;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	color: #eee;
+	text-decoration: none;
+}
+.navigation li:hover {
+	background: #103065;
+}
+

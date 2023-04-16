@@ -1,0 +1,10 @@
+.card-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.news h1 {
+	font-size: 3rem;
+}

@@ -1,0 +1,29 @@
+.portfolio {
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio h1 {
+	font-size: 3rem;
+}
+
+.file-select {
+	width: fit-content;
+	font-size: 1.75rem;
+	border: none;
+	border-bottom: solid 3px;
+	padding: 5px 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	background: inherit;
+}
+
+.portfolio .heading {
+	text-align: left;	
+	padding-left: 30px;
+}
+
+.ideal-portfolio {
+	width: 700px;
+	margin-left: 100px;
+}

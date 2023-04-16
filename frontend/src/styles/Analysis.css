@@ -1,0 +1,75 @@
+.analysis {
+	display: flex;
+	flex-direction: column;
+}
+
+.analysis h1 {
+	font-size: 3rem;
+}
+.analysis h2 {
+	font-size: 2rem;
+}
+.analysis h3 {
+	font-size: 1.5rem;
+}
+
+.analysis .heading {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.company-select {
+	width: fit-content;
+	font-size: 1.75rem;
+	border: none;
+	border-bottom: solid 3px;
+	padding: 5px 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	background: inherit;
+}
+
+.graph-incept {
+	display: flex;
+	flex-direction: row;
+}
+
+.graph-container {
+	width: max(500px, 75%);
+}
+
+.graph {
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.graph label {
+	align-self: flex-end;
+}
+
+.transcript {
+	margin-bottom: 30px;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.transcript ul {
+	list-style: none;
+}
+.transcript li {
+	padding: 5px 0;
+}
+
+.posneg-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.posneg {
+	width: 80%;
+	height: 350px;
+	background: #EFEFEF;
+	align-self: center;
+	overflow-y: scroll;
+	padding: 10px 20px;
+}
